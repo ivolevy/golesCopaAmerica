@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(184, 242, 255);
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.goalsItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imgText{
+    width: 340px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgb(220, 250, 255);
+}
+
+.imgFit{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text:hover{
+    white-space: normal;
+    text-overflow: clip;
+}
+
+img{
+    display: none;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.imgText:hover{
+    width: 500px;
+}
