@@ -1,10 +1,11 @@
 body{
-    background-color: rgb(184, 242, 255);
+    background-color: rgb(41, 41, 41);
 }
 
 .title{
     text-align: center;
     text-transform: uppercase;
+    color: rgb(243, 214, 49);
 }
 
 .goalsItems{
@@ -22,12 +23,15 @@ body{
     border: 1px solid black;
     margin: 10px;
     background-color: rgb(220, 250, 255);
+    border: 1px solid white;
+    border-radius: 3px;
 }
 
 .imgFit{
     height: 100%;
     width: 100%;
     object-fit: contain;
+    border-radius: 3px;
 }
 
 .text{
@@ -53,4 +57,5 @@ video{
 
 .imgText:hover{
     width: 500px;
+    border: 1px solid rgb(243, 214, 49);
 }
